@@ -1,1 +1,6 @@
+import pandas as pd                  # data package
+import matplotlib.pyplot as plt      # graphics package
 
+groceryStoreData = 'https://github.com/kriwang27/PythonProjs/blob/main/Grocery_Store_Locations.csv'
+url  = url1 + url2        # location of file
+df = pd.read_csv(url)     # read file and assign it to df
